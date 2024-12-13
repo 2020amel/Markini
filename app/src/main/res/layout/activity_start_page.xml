@@ -1,0 +1,66 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Imag"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Illustration -->
+    <ImageView
+        android:id="@+id/illustration"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/DHome" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consult Specialist Doctors\nSecurely And Privately"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/illustration"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat egestas nisl, nunc suspendisse massa augue. Congue sit augue volutpat vel."
+        android:textColor="#757575"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_below="@id/title"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Get Started Button -->
+    <Button
+        android:id="@+id/get_started_button"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#007BFF"
+        android:text="Get Started"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
